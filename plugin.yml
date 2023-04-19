@@ -1,0 +1,16 @@
+name: TpaPlugin
+main: TpaPlugin\Main
+author: Sahin
+description: Tpa Plugini CLO MC
+version: 1.0
+api: 4.0.0
+
+commands:
+  tpa:
+    description: Işınlanmak herşeyin kısa yolu... Evet Bunu Bende Biliyorum
+    permission: tpa.izinn
+
+permissions:
+  tpa.izinn:
+    description: Tpa Atmak İçin Gereken İzin
+    default: true
